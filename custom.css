@@ -1,0 +1,186 @@
+body {
+  padding-top: 56px;
+  position: relative;
+}
+
+.navigation {
+  background-color: #e7e7e9;
+  box-shadow: 0 0 5px #635b74;
+}
+
+.phone {
+  font-size: 1.2em;
+}
+
+.logo-text {
+  letter-spacing: 0.16em;
+}
+
+.card-block-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-block-text p {
+  flex-grow: 1;
+}
+
+.card-block-text button {
+  margin: auto;
+}
+
+.jumbo1,
+.jumbo2 {
+  background: #635b74;
+}
+
+.card-box {
+  height: 240px
+}
+
+.card-flex-box {
+  display: flex;
+  justify-content: center;
+}
+
+.card-flex-box h3 {
+  align-self: center; 
+}
+
+.infograf {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.border {
+  border-bottom: 1px solid #ddd
+}
+
+footer {
+  background: #333;
+}
+
+.social-icon {
+  width: 1.4em;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 1199px) {
+  
+}
+
+@media (max-width: 991px) {
+  
+  .review-text p {
+    font-size: 1.1em;
+  }
+  
+  .card-box {
+  height: 200px
+  }
+  
+}
+
+@media (max-width: 767px) {
+  
+  .logo {
+    font-size: 3em;
+  }
+  
+  .logo-text {
+    letter-spacing: 0.07em;
+  }
+  
+  .main-offer h1,
+  .second-offer h1 {
+    font-size: 2.0em;
+  }
+
+  .main-offer p,
+  .second-offer p,
+  .review-text p {
+    font-size: 1em;
+  }
+  
+  .section {
+    font-size: 1.5em;
+  }
+  
+  .profit-list p {
+    font-size: 0.9em;
+  }
+  
+  .card-block-text h4,
+  .modal-block-text h4 {
+    font-size: 1.3em;
+  }
+
+  .card-block-text p,
+  .modal-block-text p,
+  .contacts p {
+    font-size: 0.93em;
+  }
+  
+  .card-box {
+  height: 150px
+  }
+  
+}
+
+@media (max-width: 575px) {
+  
+  .logo {
+    font-size: 2.3em;
+  }
+  
+  .main-offer h1,
+  .second-offer h1 {
+    font-size: 1.7em;
+  }
+  
+  .main-offer p,
+  .second-offer p {
+    font-size: 0.8em;
+  }
+  
+  .section {
+    font-size: 1.2em;
+  }
+    
+  .profit-list p {
+    font-size: 0.83em;
+  }
+  
+  .card-block-text h4,
+  .modal-block-text h4 {
+    font-size: 1.2em;
+  }
+
+  .card-block-text p,
+  .modal-block-text p,
+  .contacts p {
+    font-size: 0.87em;
+  }
+  
+  .card-box {
+  height: 130px
+  }
+    
+  .infograf h3 {
+    font-size: 1.6em;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
