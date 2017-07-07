@@ -8,8 +8,8 @@ body {
   box-shadow: 0 0 5px #635b74;
 }
 
-.phone {
-  font-size: 1.2em;
+.navbar-nav li {
+  margin-top: -1.6px;
 }
 
 .logo-text {
